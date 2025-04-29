@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--FIM GOOGLE FONTS-->
+  <!--BOOTSTRAP ICONS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--FIM BOOTSTRAP ICONS-->
+  <title>Meu Site Thalia </title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header>
+    <div class="interface">
+      <div class="logo">
+        <a href="#">
+          <img src="imagens/logo.jpg" alt="" width="80px">
+        </a>
+      </div><!--logo-->
+
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="#inicio">Início</a></li> <!-- Link para a seção Início -->
+          <li><a href="#habilidades">Habilidades</a></li> <!-- Link para a seção Habilidades -->
+          <li><a href="#sobre">Sobre</a></li> <!-- Link para a seção Sobre -->
+        </ul>
+      </nav>
+
+      <div class="btn-contato">
+        <a href="#contato"> <!-- Link para a seção Contato -->
+          <button>Contato</button>
+        </a>
+      </div><!--btn-contato-->
+    </div><!--interface-->
+  </header>
+
+  <main>
+    <section id="inicio" class="topo-do-site"> <!-- Adicionei o id 'inicio' aqui -->
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo-site">
+            <h1>Desenvolvedor Frontend<span>.</span></h1>
+            <p>Bem-vinda(o)!
+              Sou Thalia Correa, desde pequena a tecnologia sempre fez parte da minha vida,
+              graças ao meu pai que é minha inspiração que é Técnico em Eletrônica.
+              Hoje, aos 28 anos, estou dando meus primeiros passos como Desenvolvedora Frontend,
+              estudando HTML, CSS e JavaScript e criando meu primeiro portfólio. Cada aprendizado
+              é uma conquista, e estou animada para seguir crescendo nessa nova jornada!</p>
+
+          </div><!--txt-topo-site-->
+
+          <div class="img-topo-site">
+            <img src="imagens/thalia.jpg" alt="" width="300px">
+          </div>
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--topo-do-site-->
+
+    <section id="habilidades" class="habilidades"> <!-- Adicionei o id 'habilidades' aqui -->
+      <div class="interface">
+        <h2 class="titulo">Minhas <span>Habilidades</span></h2>
+        <div class="flex">
+
+          <div class="habilidades-box">
+            <i class="bi bi-filetype-html"></i>
+            <h3>HTML</h3>
+            <p>Criando conteúdo web estruturado.</p>
+          </div><!--habilidades-box-->
+
+          <div class="habilidades-box">
+            <i class="bi bi-filetype-css"></i>
+            <h3>CSS</h3>
+            <p>Estilo e design de layout com CSS.</p>
+          </div><!--habilidades-box-->
+
+          <div class="habilidades-box">
+            <i class="bi bi-filetype-js"></i>
+            <h3>JavaScript</h3>
+            <p>Adicionando interatividade e funcionalidade.</p>
+          </div><!--habilidades-box-->
+
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--habilidades-->
+
+    <section id="sobre" class="sobre"> <!-- Adicionei o id 'sobre' aqui -->
+      <div class="interface">
+        <div class="flex">
+          <div class="img-sobre">
+            <img src="imagens/correa.jpg" alt="" width="300px">
+          </div><!--img-sobre-->
+
+          <div class="txt-sobre">
+            <h2>Muito Prazer, <span>Sou Thalia Correa</span></h2>
+            <p>Ola, tenho 28 anos e sempre tive uma paixão por tecnologia. Desde de muito jovem, esse interesse foi
+              inspirado pelo
+              meu pai que é Técnico Eletronica eu adorava vê-lo trabalhando e sempre admirei o que ele fazia. </p>
+            <p>Aos 19 anos, me tornei mãe e dediquei meu tempo à criação da minha filha, colocando alguns sonhos em
+              pausa.
+              Hoje, estou retormando meu caminho e estudando para me tornar desenvolvedora Frontend. Ja dei meus
+              primeiros passos com
+              HTML e CSS, e sigo determinada a aprender cada vez mais e contruir uma carreira que me orgulhe.</p>
+
+            <div class="btn-social">
+              <a href="https://discord.gg/rT7W65aP"><button><i class="bi bi-discord"></i></button></a>
+              <a href="https://github.com/liaacorrea81"><button><i class="bi bi-github"></i></button></a>
+            </div><!--btn-social-->
+          </div><!--txt-sobre-->
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--sobre-->
+
+    <section id="contato" class="formulario"> <!-- Adicionei o id 'contato' aqui -->
+      <div class="interface">
+        <h2 class="titulo">Entre em <span>Contato</span></h2>
+        <form action="">
+          <input type="text" name="" id="" placeholder="Seu Nome:" required>
+          <input type="text" name="" id="" placeholder="Seu E-mail:" required>
+          <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+          <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+        </form>
+      </div><!--interface-->
+    </section><!--formulario-->
+  </main>
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+          <div class="logo-footer">
+            <img src="imagens/logo.jpg" alt="" width="80px">
+          </div><!--logo-footer-->
+          <div class="btn-social">
+            <a href="https://discord.gg/rT7W65aP"><button><i class="bi bi-discord"></i></button></a>
+            <a href="https://github.com/liaacorrea81"><button><i class="bi bi-github"></i></button></a>
+          </div><!--btn-social-->
+        </div>
+      </div><!--line-footer-->
+
+      <div class="line-footer borda">
+        <p><i class="bi bi-envelope-fill"></i> <a href="mailto:correaliaa81@gmail.com">correaliaa81@gmail.com</a></p>
+      </div><!--linefooter-->
+    </div><!--interface-->
+  </footer>
+</body>
+
+</html>

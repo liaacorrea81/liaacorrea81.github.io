@@ -1,0 +1,346 @@
+/*ESTILO GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: rgb(254, 121, 121);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo {
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: rgb(254, 121, 121);
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px rgb(245, 121, 141);
+    transform: scale(1.05);
+
+}
+
+/*ESTILO DO CABEÇALHO*/
+header {
+    padding: 40px 4%;
+    margin: 0 auto;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0% 40px;
+}
+
+/*ESTILO DO TOPO DO SITE*/
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: white;
+    font-size: 42px;
+    line-height: 40px;
+
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: rgb(245, 121, 121);
+    transform: scale(1.05);
+
+}
+
+.topo-do-site .txt-topo-site p {
+    color: white;
+    margin: 40px 0;
+}
+
+/*ESTILO DAS HABILIDADES*/
+
+section.habilidades {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+
+}
+
+section.habilidades .flex {
+    gap: 60px;
+
+}
+
+.habilidades .habilidades-box {
+    color: white;
+    padding: 80px 0;
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: ;
+
+}
+
+.habilidades .habilidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.386);
+}
+
+.habilidades .habilidades-box i {
+    font-size: 70px;
+    color: rgb(245, 121, 121);
+}
+
+.habilidades .habilidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+
+/*ESTILO DO SOBRE*/
+section.sobre {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+
+}
+
+.sobre .txt-sobre {
+    color: white;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: rgb(245, 121, 121);
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(245, 121, 121);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 2s;
+}
+
+/* ESTILO DO FORMULARIO DE CONTATO*/
+section .formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: rgba(129, 127, 127, 0.24);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: rgba(255, 254, 254, 0.802);
+    font size: 18px;
+}
+
+form input::placeholder {
+    color: rgb(245, 121, 121);
+}
+
+form textarea {
+    resize: none;
+    color: rgb(245, 121, 121);
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: rgb(245, 121, 121);
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/*ESTILO DO RODAPÉ*/
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid rgb(245, 121, 121);
+}
+
+footer .line-footer p i {
+    color: rgb(245, 121, 121);
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: white;
+}
+/* RESPONSIVO PARA TELAS MENORES - 1024px */
+@media screen and (max-width: 1024px) {
+    .topo-do-site .flex, 
+    .sobre .flex, 
+    .habilidades .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav.menu-desktop ul li {
+        padding: 0 20px;
+    }
+
+    .topo-do-site h1 {
+        font-size: 32px;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 32px;
+    }
+
+    .habilidades .habilidades-box {
+        padding: 40px 20px;
+    }
+}
+
+/* RESPONSIVO PARA TELAS AINDA MENORES - 768px */
+@media screen and (max-width: 768px) {
+    header>.interface {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    header nav.menu-desktop ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .btn-contato button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .topo-do-site h1 {
+        font-size: 28px;
+    }
+
+    section.habilidades .flex {
+        gap: 20px;
+    }
+}
+
+/* RESPONSIVO PARA CELULARES - 480px */
+@media screen and (max-width: 480px) {
+    h2.titulo {
+        font-size: 28px;
+    }
+
+    .topo-do-site h1 {
+        font-size: 24px;
+    }
+
+    .btn-social button {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    form input,
+    form textarea {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+}
